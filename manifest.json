@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "ML Screenshot Extension",
+    "version": "1.0",
+    "description": "Captures full-page screenshots and analyzes them with ML models",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ], 
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
